@@ -36,7 +36,7 @@ function BasicExample() {
         <Form.Control type="password" placeholder="Password" />
       </Form.Group>
 
-      <button class="cssbuttons-io">
+      <button className="cssbuttons-io">
         <span>
           LETS BEGİN
         </span>
