@@ -5,6 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image:url("./assets/peakpx (1).jpg");
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-position-y: top;
+  /* background: rgb(190,235,255);
+background: linear-gradient(90deg, rgba(190,235,255,1) 0%, rgb(49, 148, 202) 89%); */
 }
 
 code {
@@ -21,7 +28,7 @@ code {
  letter-spacing: 0.05em;
  border-radius: 0.8em;
  border: none;
- background: linear-gradient(to right, #7ccbe5, #4a00e0);
+ background: linear-gradient(to right, #7ccbe5, #000000);
  color: ghostwhite;
  overflow: hidden;
 }

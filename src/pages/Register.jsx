@@ -26,7 +26,7 @@ function BasicExample() {
 
   return (
     <Form
-    onSubmit={handleSubmit}
+      onSubmit={handleSubmit}
       style={{
         maxWidth: "40rem",
         margin: "0 auto",
@@ -34,7 +34,7 @@ function BasicExample() {
       }}
     >
       <Form.Group className="mb-3">
-        <Form.Label>Name</Form.Label>
+        <Form.Label className="text-light">Name</Form.Label>
         <Form.Control
           type="text"
           placeholder="Enter name"
@@ -44,7 +44,7 @@ function BasicExample() {
         />
       </Form.Group>
       <Form.Group className="mb-3">
-        <Form.Label>Surname</Form.Label>
+        <Form.Label className="text-light">Surname</Form.Label>
         <Form.Control
           type="text"
           placeholder="Enter surname"
@@ -54,7 +54,7 @@ function BasicExample() {
         />
       </Form.Group>
       <Form.Group className="mb-3">
-        <Form.Label>Phone Number</Form.Label>
+        <Form.Label className="text-light">Phone Number</Form.Label>
         <Form.Control
           type="number"
           placeholder="Enter number"
@@ -64,7 +64,7 @@ function BasicExample() {
         />
       </Form.Group>
       <Form.Group className="mb-3">
-        <Form.Label>Country</Form.Label>
+        <Form.Label className="text-light">Country</Form.Label>
         <Form.Control
           type="text"
           placeholder="Enter country"
@@ -74,7 +74,7 @@ function BasicExample() {
         />
       </Form.Group>
       <Form.Group className="mb-3">
-        <Form.Label>Email address</Form.Label>
+        <Form.Label className="text-light">Email address</Form.Label>
         <Form.Control
           type="email"
           placeholder="Enter email"
@@ -85,7 +85,7 @@ function BasicExample() {
       </Form.Group>
 
       <Form.Group className="mb-3">
-        <Form.Label>Password</Form.Label>
+        <Form.Label className="text-light">Password</Form.Label>
         <Form.Control
           type="password"
           placeholder="Password"

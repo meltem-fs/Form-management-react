@@ -25,7 +25,7 @@ const Login = () => {
   return (
     <div>
       <Form
-      onSubmit={handleSubmit}
+        onSubmit={handleSubmit}
         style={{
           maxWidth: "40rem",
           margin: "0 auto",
@@ -36,7 +36,7 @@ const Login = () => {
         }}
       >
         <Form.Group className="mb-3">
-          <Form.Label>Email</Form.Label>
+          <Form.Label className="text-light">Email</Form.Label>
           <Form.Control
             type="email"
             placeholder="Enter email"
@@ -46,7 +46,7 @@ const Login = () => {
           />
         </Form.Group>
         <Form.Group className="mb-3">
-          <Form.Label>Password</Form.Label>
+          <Form.Label className="text-light">Password</Form.Label>
           <Form.Control
             type="password"
             placeholder="Enter password"
@@ -56,10 +56,7 @@ const Login = () => {
           />
         </Form.Group>
 
-        <button
-        type='submit'
-          className="cssbuttons-io mb-5"
-        >
+        <button type="submit" className="cssbuttons-io mb-5">
           <span>LOGİN</span>
         </button>
         <br />
